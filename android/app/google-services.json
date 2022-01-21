@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "823615544582",
+    "project_id": "to-do-with-getx",
+    "storage_bucket": "to-do-with-getx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823615544582:android:012b58e5bb319efa669287",
+        "android_client_info": {
+          "package_name": "com.jaycode.wondercompany.fluttertodoappwithgetx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823615544582-hmcd0jhlaqqgs1iqab9fo5pvjeu0imqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy85sUsBzX3mORpOXvQq4b_y5VurDEJjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823615544582-hmcd0jhlaqqgs1iqab9fo5pvjeu0imqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
