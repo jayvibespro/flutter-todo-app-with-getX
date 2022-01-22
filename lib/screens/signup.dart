@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:fluttertodoappwithgetx/controllers/authController.dart';
+import 'package:get/get.dart';
 
-class Signup extends StatelessWidget {
+class Signup extends GetWidget<AuthController> {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
   final TextEditingController userNameController = TextEditingController();
@@ -43,12 +45,15 @@ class Signup extends StatelessWidget {
                 height: 10,
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  controller.createUser(
+                      emailController.text, passwordController.text);
+                },
                 child: const Text('Sign Up'),
               ),
               TextButton(
                 onPressed: () {
-                  Navigator.pop(context);
+                  Get.back();
                 },
                 child: const Text('Go to Log In'),
               ),
